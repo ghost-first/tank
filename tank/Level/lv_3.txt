@@ -1,0 +1,23 @@
+#第一关的信息
+#敌人数量
+enemyCount=10
+#敌人坦克的多个类型使用【逗号】分隔
+enemyType=0,1
+#地图生成方式通过调用那个方法生成
+method=addRow
+#该方法调用次数
+invokeCount=5
+#关卡难度 >=0
+gameLevel=3
+#方法调用四次提供的参数
+#int startX,int startY,int count,int type,final int Dis
+#0,从地图左上角开始,为边界，大于0的值都是地图元素块的倍数（第三个值为墙的数量）
+#public static final int TYPE_NORMAL = 0;
+#public static final int TYPE_COVER = 1;
+#public static final int TYPE_HARD = 2;
+#public static final int TYPE_HOME = 3;
+param1=0,-1,7,0,2
+param2=-2,2,8,0,2
+param3=-2,5,8,0,2
+param4=-2,8,8,0,2
+param5=-2,11,8,0,2
